@@ -86,16 +86,39 @@ a {
   overflow: hidden;
 }
 /* ================================= HEADER=============================== */
-.header {}
+.header {
+  /* height: 70px; */
+}
 
-/* .container {} */
+.header .container {
+  display: flex;
+  align-items: center;
+}
 
 .header-logo {}
 
-.header-nav {}
+.header-nav {
+  margin-left: auto;
+}
 
-.header-list {}
+.header-list {
+  display: flex;
+  padding: 25px 0;
+}
 
-.header-item {}
+.header-item {
+  background-color: green;
+  padding-left: 30px;
+  margin-left: 30px;
+}
 
-.header-link {}
+.header-item:first-child {
+  margin-left: 0;
+}
+
+.header-link {
+  padding: 25px 0;
+  display: block;
+  /* padding-left: 30px; */
+  /* margin-left: 30px; */
+}
