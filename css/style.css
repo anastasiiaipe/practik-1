@@ -104,16 +104,17 @@ a {
 .header-list {
   display: flex;
   padding: 25px 0;
+  gap: 30px;
 }
 
 .header-item {
   background-color: green;
-  padding-left: 30px;
-  margin-left: 30px;
+  /* padding-left: 30px; */
+  /* margin-left: 30px; */
 }
 
 .header-item:first-child {
-  margin-left: 0;
+  /* margin-left: 0; */
 }
 
 .header-link {
